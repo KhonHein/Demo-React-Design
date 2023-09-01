@@ -1,0 +1,13 @@
+emoji changes
+1. Tiger 
+2. Knife
+3. Bird
+4. Drum
+
+make upper and lower tones a little short 
+
+resize number (1  6  7 ) like others
+
+version 1.001 to 1.002
+
+ 

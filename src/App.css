@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+
+/* general */
+body {
+  background: #1B1B43;
+}
+
+
+/* Search box input*/
+.search_container input{
+ width: 200px;
+ height: 25px;
+ margin: .5rem;
+ padding: 0.2rem .5rem;
+ border-radius: .5rem;
+ border-color: #b4b4d1;
+ background: transparent;
+ color: white;
+ font-size: 1rem;
+}
+
+/* Button Ui */
+
+.btn-primary:hover {
+  background: transparent;
+
+}
+.btn-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 5rem;
+  height: 2rem;
+  border-radius: .4rem;
+  background: #48487c;
+}
+
+.description{
+  opacity: 0;
+  animation: slideLeft 1s ease forwards;
+  animation-delay: 1s;
+}
+p{
+  color: white;
+}
+
+.color-1 {
+  color: rgb(200, 176, 206);
+  font-weight: bold;
+}
+
+/* keyFrame animation */
+
+@keyframes slideLeft {
+  0%{
+      opacity: 0;
+      transform: translateX(100px);
+  }
+  100%{
+      opacity: 1;
+      transform: translateX(0);
+  }
+}

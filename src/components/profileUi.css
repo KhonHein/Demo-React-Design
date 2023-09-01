@@ -1,0 +1,96 @@
+.profileUi_container {
+    width: 60vw;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.profileUi_container .profile-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileUi_container .profile-info:last-child{
+    margin-bottom: 5rem;
+}
+
+
+/* header section */
+.profileUi_container .profile-info.profile_head_section img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.profileUi_container .profile-info.profile_head_section .profile-name{
+    display: inline-block;
+    align-items: center;
+    padding: .5rem;
+    line-height: 10%;
+    color: white;
+}
+
+
+/* upgrade secton  */
+.profileUi_container .profile-info.upgrade-premium_section .upgrade_wrapper i.up_icon {
+    font-size: 1.5rem;
+}
+.profileUi_container .profile-info.upgrade-premium_section {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding: .5rem;
+    border-radius: .5rem;
+    color: white;
+    background: #292951;
+}
+
+/* about section */
+.profile-content_section {
+    width: 90%;
+    height: auto;
+    margin: .5rem auto;
+    flex-direction: column;
+    padding: .5rem;
+    border-radius: .5rem;
+    color: white;
+    background: #292951;
+}
+
+.profile-content_section .profile_about{
+    width: 100%;
+    height: 2rem;
+    margin: .3rem;
+    border-radius: .5rem;
+    color: white;
+    text-decoration: none;
+    border: solid 1px #7e7ec9;
+    background: #343456;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .3rem;
+}
+
+.profile-content_section .profile_about span i{
+    font-size: 25px;
+    margin:.25rem .5rem;
+    color: black;
+}
+
+.profile-content_section .profile_about:last-child button:hover{
+    background: red;
+    color: black;
+}
+.profile-content_section .profile_about:last-child button{
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-color: rgb(177, 89, 206);
+    color: red;
+}
+/* phone screen */
+@media screen and (max-width:700px) {
+    .profileUi_container{
+        width: 90vw;
+    }
+}

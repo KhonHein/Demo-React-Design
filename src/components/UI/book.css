@@ -1,0 +1,28 @@
+.book_container{
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.book_container .book {
+    width: 150px;
+    height: 200px;
+    border: 1px solid white;
+    margin: .5rem;
+    border-radius: .3rem;
+  }
+  .book_container .book img{
+    width: 100%;
+    height: 100%;
+    box-shadow: .3rem 0.3rem .3rem 0 rgb(76, 68, 78);
+  }
+  .book_container .book h5 {
+    margin-top: 0;
+    color: white;
+  }
+
+/* medium query small screen */
+@media screen and (max-width:700px) {
+  .book_container .book {
+    width: 70px;
+    height: 100px;
+  }
+}

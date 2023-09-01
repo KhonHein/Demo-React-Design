@@ -1,0 +1,15 @@
+.library_container .library-navbar{
+    position: sticky;
+    top: 10px;
+    z-index: 1500;
+}
+.library_container .library_content{
+    display: flex;
+    flex-wrap: wrap;
+   padding: .5rem;
+}
+.library_container .library_content .library-book-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    /* overflow-y: auto; */
+}

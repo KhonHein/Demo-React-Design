@@ -1,0 +1,81 @@
+.home_container {
+    display: flex;
+    width: 100vw;
+}
+/* left-side right-side */
+
+.home_container .left-side,
+.home_container .right-side {
+  width: 30%;
+  height: auto; /* Adjust the height as needed */
+  overflow-y: auto;
+  box-sizing: border-box;
+  /* border: 1px solid #CFD1D3; */
+}
+
+.home_container .right-side {
+  /* background-color: lightgray; */
+
+}
+
+/* Optional: To hide the scrollbar when not scrolling */
+.home_container .left-side::-webkit-scrollbar,
+.home_container .right-side::-webkit-scrollbar {
+  width: 0.1em;
+}
+
+.home_container .left-side::-webkit-scrollbar-thumb,
+.home_container .right-side::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+}
+
+/* center-side */
+.home_container .center-side .section.series::-webkit-scrollbar{
+  width: 0.3rem;
+  background: rgb(143, 117, 176);
+}
+.home_container .center-side{
+    height: auto;
+    margin-bottom: 5rem;
+}
+.anouncement_container .anouncement {
+    display: flex;
+    margin-left: -1rem;
+    justify-content: center;
+}
+/*center  category */
+.section .categories {
+    height: 10rem;
+    overflow: auto;
+    display: none;
+}
+
+/* center newly added  */
+.section.series {
+    height: 25rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    padding: .3rem;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+/* for latest marging  */
+.center-side .section:last-child{
+  margin-bottom: 5rem;
+}
+
+
+/* medium screen */
+@media screen and (max-width: 700px) {
+    .home_container .left-side,.right-side{
+        display: none;
+    }
+    .section .categories{
+        display: block;
+      
+    }
+    .section.series {
+      height: 15rem;
+    }
+  }

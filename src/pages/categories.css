@@ -1,0 +1,24 @@
+
+.container .depency {
+    width: 50vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.categories_container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: auto;
+    margin: 0 auto;
+    padding: .5rem;
+    margin-bottom: 4rem;
+}
+.categories_container .category{
+    display: flex;
+    justify-content: center;
+}

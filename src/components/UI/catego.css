@@ -1,0 +1,18 @@
+.catego_container {
+    width: 6rem;
+    height: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    border-top-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    margin: .3rem;
+    padding: 0 .1rem;
+    cursor: pointer;
+}
+.catego_container .catego_name {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}

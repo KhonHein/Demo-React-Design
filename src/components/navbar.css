@@ -1,0 +1,41 @@
+.navbar_container{
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    height: 4rem;
+    /* border-bottom: 1px solid #CFD1D3; */
+    z-index: 1000;
+    background: #1B1B43;
+    display: flex;
+    justify-content: center;
+}
+
+/*  url menu*/
+.navbar_container nav{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+
+/* humbagar menu */
+.navbar_container nav .humbagar {
+    /* display: none; */
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+/* mobile size */
+
+@media screen and (max-width: 700px) {
+    .navbar_container nav {
+        width: 90%;
+        margin-right: 2rem;
+    }
+  }

@@ -1,0 +1,12 @@
+
+.footer_container{
+    margin-top: 2rem;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100vw;
+    background: #292951;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
